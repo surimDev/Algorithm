@@ -74,7 +74,7 @@ public class G5_6593_SangbumBuilding {
             // printMap();
 
             if(dist[end.l][end.y][end.x]>0) sb.append("Escaped in ").append(dist[end.l][end.y][end.x]-1).append(" minute(s).").append("\n");
-            else sb.append("Trapped!");
+            else sb.append("Trapped!").append("\n");
 
         }
 
